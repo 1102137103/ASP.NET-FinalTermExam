@@ -10,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\..\Desktop\1102137103 徐雅涵.docx = ..\..\..\..\Desktop\1102137103 徐雅涵.docx
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1102137103", "1102137103", "{095C3C8F-AC6C-4872-A349-4B144892264E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\1102137103 徐雅涵_FinalTermExam.doc .docx = ..\..\..\..\Desktop\1102137103 徐雅涵_FinalTermExam.doc .docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
