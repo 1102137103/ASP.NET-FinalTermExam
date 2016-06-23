@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>1102137103 徐雅涵</h2>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>員工資料查詢</h2>
+    
+   
+        <div id="SearchConditionSection">
+            <table class="table table-bordered">
+                <tr>
+                    <td>員工編號</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>員工姓名</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>職稱</td>
+                    <td>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>任職日期</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+              
+                    <td>
+                        <input type="submit" value="查詢" />
+                        <input type="button" value="清除" />
+                        @Html.ActionLink("新增員工", "InsertOrder")
+                    </td>
+
+                
+            </table>
+        </div>
+
+    
+   
+</body>
+</html>
