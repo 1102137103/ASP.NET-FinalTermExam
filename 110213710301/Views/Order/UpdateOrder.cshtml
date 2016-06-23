@@ -1,7 +1,94 @@
 ﻿
 @{
     ViewBag.Title = "UpdateOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>UpdateOrder</h2>
+<!DOCTYPE html>
 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>修改員工資料</h2>
+
+
+    <div id="SearchConditionSection">
+        <table class="table table-bordered">
+            <tr>
+                <td>*姓名(First Name)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>*姓名(Last Name)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>*職稱</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>稱謂</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>任職日期</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>生日</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>國家</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>城市</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>地址</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>電話</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>性別</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>直屬主管</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>月薪</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>年薪</td>
+                <td></td>
+            </tr>
+
+            <td>
+                <input type="submit" value="存檔" />
+                <input type="button" value="清除" />
+                @Html.ActionLink("回前一頁", "Index")
+            </td>
+
+
+        </table>
+    </div>
+
+
+
+</body>
+</html>
